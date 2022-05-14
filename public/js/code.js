@@ -4,13 +4,12 @@ let body = document.querySelector('body');
 
 let color = ['dodgerblue', 'green', 'grey', 'rgb(76, 7, 78)', 'darkolivegreen', 'black', 'orangered'];
 let index = 0;
-let seguir = true;
 let n = -1;
 
-while (seguir){
+while (true){
     n = parseInt(prompt('Ingrese un número como rango'));
     if (!isNaN(n) && n>=0){
-        seguir = false;
+        break;
     }
 }
 
